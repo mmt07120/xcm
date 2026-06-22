@@ -1,5 +1,11 @@
 const express = require('express');
 const cors = require('cors');
+app.use(cors({
+  origin:"*",
+  methods:["GET","POST"],
+  allowedHeaders:["Content-Type","Authorization"]
+}));
+const cors = require('cors');
 const fs = require('fs');
 const path = require('path');
 const bcrypt = require('bcryptjs');
