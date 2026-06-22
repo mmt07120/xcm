@@ -1,0 +1,20 @@
+{
+  "name": "bear-app-server",
+  "version": "1.0.0",
+  "description": "熊出没Vue项目后端服务",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "lowdb": "^6.1.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.2"
+  },
+  "keywords": ["bear", "vue", "express"],
+  "author": "",
+  "license": "ISC"
+}
